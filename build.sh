@@ -7,10 +7,10 @@ set -o nounset
 set -o errexit
 #set -o xtrace
 
-# Configurations
+# Configurations  *** http://releases.ubuntu.com/precise/MD5SUMS ***
 BOX="ubuntu-precise-64"
-ISO_URL="http://releases.ubuntu.com/precise/ubuntu-12.04-alternate-amd64.iso"
-ISO_MD5="9fcc322536575dda5879c279f0b142d7"
+ISO_URL="http://releases.ubuntu.com/precise/ubuntu-12.04.4-server-amd64.iso"
+ISO_MD5="e83adb9af4ec0a039e6a5c6e145a34de"
 
 # location, location, location
 FOLDER_BASE=`pwd`
